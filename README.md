@@ -35,11 +35,14 @@ pip install -r requirements.txt
 Prepare the Data:
 Place your processed and separated radar data files (.zip) in the appropriate directory as referenced in the code.
 Update the file paths in the notebook/script to point to your dataset location.
+
 Run the Notebook:
 Open the Jupyter Notebook RADAR_PROJECT_CODE_RNN_LSTM_GRU.ipynb.
 Execute the cells sequentially to pre-process the data, define the models, train them, and evaluate their performance.
+
 Model Architecture
 The final model is a GRU-based classifier built with PyTorch. Key features of the architecture include:
+
 Bidirectional GRU Layers: To capture temporal information from both forward and backward directions in the sequence.
 Dropout: To prevent overfitting.
 Batch Normalization: To stabilize and speed up the training process.
