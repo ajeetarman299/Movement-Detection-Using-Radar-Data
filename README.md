@@ -44,9 +44,13 @@ Model Architecture
 The final model is a GRU-based classifier built with PyTorch. Key features of the architecture include:
 
 Bidirectional GRU Layers: To capture temporal information from both forward and backward directions in the sequence.
+
 Dropout: To prevent overfitting.
+
 Batch Normalization: To stabilize and speed up the training process.
+
 Fully Connected Layers: To map the GRU output to the final class probabilities.
+
 This architecture proved to be the most effective in learning the complex patterns within the radar signal data for this classification task.
 
 
