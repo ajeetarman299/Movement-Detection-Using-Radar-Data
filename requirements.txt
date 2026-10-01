@@ -1,4 +1,9 @@
-numpy
-torch
-scikit-learn
-scipy
+# Python 3.12
+# Core libraries used by RADAR_PROJECT_CODE_RNN_LSTM_GRU.ipynb
+numpy==2.5.3
+scipy==1.18.1
+scikit-learn==1.9.1
+torch==2.14.1
+
+# Running the notebook locally
+jupyterlab==4.6.4
